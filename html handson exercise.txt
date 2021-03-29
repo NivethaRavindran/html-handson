@@ -1,0 +1,486 @@
+EXERCISE1:
+
+ADDRESSBOOK.HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Addressbook</title>
+<body>
+<form name="addrbook" method="" action="submitted.html">
+<table>
+<tr>
+<td>
+Name:</td><td><input type="text" name="name" value=""></td>
+</tr>
+<tr>
+<td>
+<br/>Address:</td><td><br/><input  type="textarea" name="addr" value=""></td>
+</tr>
+<tr>
+<td>
+<br/>City:</td><td><br/><input  type="text" name="city" value=""></td>
+</tr>
+<tr>
+<td>
+<br/>Postal code:</td><td><br/>
+<select name="postal">
+
+  <option value="p1" selected>641687</option>
+
+  <option value="p2">678563</option>
+
+  <option value="p3">678456</option>
+
+  <option value="p4">678456</option>
+
+</select>
+</td>
+</tr>
+<tr>
+<td><br/>Transport:</td>
+<td><br/>
+<input type="radio" name="bus" value="male">Bus<br>
+
+  <input type="radio" name="car" value="female" >Car<br>
+
+  <input type="radio" name="cycle" value="other" >Cycle<br>
+  
+  <input type="radio" name="other" value="other" >Other
+  
+
+<br/><br/>
+</td>
+</tr>
+<tr>
+<td>
+<br/>Skillsets:</td>
+<td><br/><input type="checkbox" name="skill1" value="C">C<br/>
+<input type="checkbox" name="skill2" value="C++">C++<br/>
+<input type="checkbox" name="skill3" value="Java">JAVA<br/></td>
+</tr>
+<tr>
+<td><br/>Email</td><td><br/><input type="text" name="email" value=""></td>
+</tr>
+<tr>
+<td>
+<tr>
+<td>
+<br/>
+About yourself:</td><td><br/><input type="text" name="abt" value=""><br/>
+</td>
+</tr>
+<tr>
+<td>
+<br/>
+<input type="submit" name="Register" /></td>
+<td>
+</br>
+<input type="reset" value="Reset"/></td>
+</tr>
+</table>
+</form>
+</body>
+</head>
+</html>
+
+SUBMITTED.HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+submitted html</title>
+</head>
+<body>
+<h1>
+“Your details are submitted. Thank You!”</p>
+
+
+</body>
+</html>
+
+EXERCISE 2:
+
+
+FIRST.HTML
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0
+
+Transitional//EN">
+
+<!-- saved from
+
+url=(0047)http://www.american.edu/TED/class/practice1.htm -->
+
+<HTML><HEAD><TITLE>HTML</TITLE>
+
+<META http-equiv=Content-Type content="text/html;
+
+charset=windows-1252"><!-- A Remark can go here and it will
+
+not be interpreted by your HTML editor -->
+
+<META content="MSHTML 6.00.2900.2769" name=GENERATOR></HEAD>
+
+<BODY text=#000000 bgColor=#ffffff>
+
+<CENTER>
+
+<H1>Assignment 1: Basic HTML Display Features</H1></CENTER>
+
+<P>A basic page needs only a bare minimum of programming.
+
+Graphics are an important part of Web pages but so too are
+
+words. I look upon the Web as a medium for ideas and the use
+
+of new technologies, but not the other way around.
+
+A Web page tells a great story with great graphical and
+
+analytical presentation.
+
+<P>Using the "View" option look at the source code for this
+
+document. The background color and the text declared in the
+
+body refer to a coding system that combines a system of
+
+numbers and letters to create thousands of possible color
+
+choices. The body color indicates white and the text as being
+
+black. I could have just written in "white" and "black"
+
+instead of these codes.
+
+<P>Here is an example of a horizontal rule:
+
+<HR>
+
+<P>To begin, we can change the <H2>header size</H2>and <FONT
+
+color=blue>color</FONT> <FONT color=#ff0000>of</FONT> <FONT
+
+color=#008080>letters</FONT> seen on the screen.
+
+The <FONT size=+2>font size</FONT>can be changed as well, and
+
+actually gives more choices.
+
+<P>We can also change the appearance of words on the screen.
+
+This shows some
+
+differing word types in a blocked quote.
+
+<BLOCKQUOTE><FONT face="Geneva, Arial, Helvetica, sansserif">
+
+Now is the <EM>time </EM>for all good <STRONG>people</STRONG> to <B>come </B>to the <I>aid</I> of
+
+their country. </FONT></BLOCKQUOTE>
+
+<P><FONT face="Times New Roman, Times, serif">That was also
+
+an example of a nested command. </FONT> </P>
+
+<a href="iknow.html">Iknow</a>
+
+</BODY>
+
+</HTML>
+
+
+IKNOW.HTML
+
+<html>
+<head>
+<title>iknow</title>
+</head>
+<body>
+<h1>Skillsets</h1>
+<ol type="1">
+<li>Creativity</li>
+<li>Analytical skills</li>
+<li>Problem solving skills</li>
+<li>Critical thinking</li>
+</ol>
+<h1>Personal strengths</h1>
+<ul type="square">
+<li>Easily adoptable to environment</li>
+<li>Hardworker and smartworker</li>
+<li>Honesty</li>
+<li>Postive thinker</li>
+</ul>
+</body>
+</html>
+
+EXERCISE 3:
+
+REGISTRATIONFORM.HTML
+
+<html>
+<head>
+<title>
+Registration form</title>
+</head>
+<body>
+<form name="regform" method="" action="homepage.html">
+<table>
+<tr>
+<td>
+<label for="user">User Id</td><td><input type="text" name="userid" value=""></td></tr>
+<tr>
+<td>
+<br/><label for="first">First Name</td><br/><td><br/><input type="text" name="firstname" value=""></td></tr>
+<tr>
+<td>
+<br/>
+<label for="Last Name">Last Name</td><td><br/><input type="text" name="lastname" value=""></td></tr>
+<tr>
+<td>
+<br/>
+<label for="aadr">Address</td><td><br/><input type="textarea" name="address" value=""></td></tr>
+<tr>
+<td>
+<label for="count">Country</td><td><br/><input type="radio" name="ind" value="">India<br/>
+<input type="radio" name="am" value="">America<br/>
+<input type="radio" name="saf" value="">South Africa<br/>
+</td></tr>
+<tr>
+<td>
+<br/>
+<label for="phone">Phone No:</td><td><br/><input type="number" name="phoneno"  value=""></td></tr>
+<tr><td>
+<label for="zip">Zip Code:</td><td><br/><input type="text" name="zipcode" value="">
+<tr>
+<td>
+<label for="gen">Gender</td><td><br/><input type="radio" name="male" value="">Male<br/>
+<input type="radio" name="female" >Female<br/>
+<input type="radio" name="other">Other<br/></td></tr>
+<tr><td>
+<input type="submit" value="Submit"></td><td>
+<input type="reset" value="Reset"></td></tr>
+</table>
+</form>
+</body>
+</html>
+
+HOMEPAGE.HTML
+
+<html>
+<head>
+<title>Home Page</title>
+</head>
+<body>
+<h1>Your data have been uploaded</h1>
+</body>
+</html>
+
+WEB.XML
+
+<xml version="1.0" encoding="UTF-8">
+<welcome-file-list>
+
+<welcome-file>HomePage.html</welcome-file>
+
+</welcome-file-list>
+</xml>
+
+EXERCISE 4:
+
+<html>
+<head>
+<title>Planets
+</title>
+</head>
+<body>
+<table border="1" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<th>Planet name</th>
+<th>Year length</th>
+<th>Day length</th>
+</tr>
+<tr>
+<td>Mercury</td>
+<td>88 days</td>
+<td>59 days</td>
+</tr>
+<tr>
+<td>Venus</td>
+<td>225 days</td>
+<td>243 days</td>
+</tr>
+<tr>
+<td>Earth</td>
+<td>365 days</td>
+<td>24hrs</td></tr>
+<tr>
+<td>
+Mars</td>
+<td>765 days</td>
+<td>24.6 hrs</td></tr>
+</table>
+
+</body>
+</html>
+
+EXERCISE 5:
+
+FORMATTINGTAG.HTML
+
+<html>
+<head>
+<title>Formattertags</title>
+<body>
+<h1>Pre tag</h1>
+<pre>
+The PRE command uses a preset format from a device used
+
+to create a file, especially in cases of a word
+
+processor created document. It is an easy way to
+
+convert text documents to Web documents. Check your
+
+code by inserting <PRE> tag in your document.
+</pre>
+<h1>List</h1>
+<ol type="i">
+<li>circle</li>
+<li>square</li>
+<li>moon</li>
+</ol>
+<ul type="*">
+<li>one</li>
+<li>two</li>
+<li>three</li>
+</ul>
+
+</body>
+
+</head>
+</html>
+
+EXERCISE 6:
+<html>
+<head>
+<title>Example6</title>
+<body >
+<img src="img.jpg" align="right"></img>
+<p style="background-color:pink">A paragraph <b>(from the Ancient Greek παράγραφος, parágraphos, "to write beside") </b>is a self-contained unit of discourse in writing dealing with a particular point or idea. 
+<hr color="green">A paragraph consists of one or more sentences. </hr>
+Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.
+</p>
+<p style="text-align:center">Hello,how are you?....Its very pleasure to see you!!!</p>
+</body>
+</head>
+</html>
+
+EXERCISE 7:
+
+EXAMPLE7.HTML
+
+<html>
+<head>
+<title>Example7</title>
+</head>
+<body>
+<h3><i>Hello! welcome to this page</i></h3>
+<h3 style="color:blue">A text which is coloured in blue</h3>
+<a href="mailto:abc123@example.com? subject=learning html">Mailto  </a>
+<br/><br/>
+<img src="img.jpg" width="300" height="300"/><br/>
+<br/><br/>
+<a href="myimages.html"><img src="flower.jpg"></img></a>
+</body>
+<html>
+
+MYIMAGE.HTML
+
+<html>
+<head>
+<title>images</title>
+</head>
+<body>
+<img src="flower2.jpg"/><br/><br/>
+<img src="download.jpg"/>
+</body>
+</html>
+
+EXERCISE 8:
+
+FIRST1.HTML
+<html>
+<head>
+<title>First page</title>
+</head>
+<body>
+<h3>Here is link to second html page</h3>
+<a href="second.html">Secondhtml</a>
+</body>
+</html>
+
+SECOND.HTML:
+
+<html>
+<head>
+<title>secong page</title>
+</head>
+<body style="background-image:url('img.jpg');background-repeat:no-repeat;background-size: cover">
+<h4>Short description of myself</h4>
+<p>Hi iam nivi..living in Tirupur</p>
+<br/>
+<br/>
+<h4>List of hobbies</h4>
+<ul type="circle">
+<li>Dancing</li>
+<li>singing</li>
+<li>cooking</li>
+</ul>
+<a href="https://www.geeksforgeeks.org/html-tutorials/#:~:text=HTML%20stands%20for%20HyperText%20Markup%20Language.%20It%20is,Hypertext%20defines%20the%20link%20between%20the%20web%20pages.">
+Learn basic of html</a>
+<hr style="width:300px;height:25px;background-color:red"></hr>
+</body>
+</html>
+
+EXERCISE 9:
+
+LOGIN.HTML
+<!DOCTYPE html>
+<html>
+<head>
+<title>login page</title>
+</head>
+<body>
+<h1>LOGIN</h1>
+<form name="login" method="" action="success.html">
+<table>
+<tr>
+<td>
+Username:</td><td><input type="text" name="uname" value=""></td></tr>
+<tr><td><br/>
+Password:</td><td><br/><input type="text" name="passwd" value=""></td></tr>
+<tr><td><input type="submit" name="Submit"></td>
+<td><input type="reset" name="Reset"></td></tr>
+
+</table>
+</form>
+<a href="newuserreg.html">New User Registration</a>
+</body>
+</html>
+
+SUCCESS.HTML
+<!DOCTYPE html>
+<html>
+<head>
+<title>success page</title>
+</head>
+<body>
+<h1>SUCCESS</h1>
+
+<a href="login1.html">Go back</a>
+</body>
+</html>
